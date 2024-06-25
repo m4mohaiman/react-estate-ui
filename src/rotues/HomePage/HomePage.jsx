@@ -1,8 +1,8 @@
 import React from "react";
 import "./homepage.scss";
-import SearchBar from "../../components/searchBar/SearchBar";
+import SearchBar from "../../components/searchBar/searchBar";
 
-const HomePage = () => {
+const Homepage = () => {
   return (
     <div className="homePage">
       <div className="textContainer">
@@ -38,4 +38,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Homepage;
